@@ -443,7 +443,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 
-export default function WindsurfNav() {
+export default function Navbar() {
   const [hoveredMenu, setHoveredMenu] = useState(null);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [expandedAccordion, setExpandedAccordion] = useState(null);
