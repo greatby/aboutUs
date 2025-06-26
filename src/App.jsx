@@ -1,3 +1,4 @@
+import AboutSection from "./components/AboutSection";
 import EnagagementStats from "./components/EnagagementStats";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -9,8 +10,9 @@ function App() {
     <div>
     <Navbar />
     <Hero />
-    <EnagagementStats />
-    <LeadershipGrid />
+    <AboutSection />
+    {/* <EnagagementStats />
+    <LeadershipGrid /> */}
     <Footer />
     </div>
   );
