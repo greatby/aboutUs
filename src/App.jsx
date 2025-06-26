@@ -8,12 +8,12 @@ import Navbar from "./components/navbar";
 function App() {
   return (
     <div>
-    <Navbar />
-    <Hero />
-    <AboutSection />
-    {/* <EnagagementStats />
+      <Navbar />
+      <Hero />
+      <AboutSection />
+      {/* <EnagagementStats />
     <LeadershipGrid /> */}
-    <Footer />
+      <Footer />
     </div>
   );
 }
