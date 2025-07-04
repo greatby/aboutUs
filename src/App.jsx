@@ -1,6 +1,7 @@
 import AboutJourneySection from "./components/AboutJourneySection";
 import AboutSection from "./components/AboutSection";
 import EnagagementStats from "./components/EnagagementStats";
+import FadeInWhenVisible from "./components/FadeEffects";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import LeadershipGrid from "./components/LeadershipGrid";
@@ -11,12 +12,14 @@ function App() {
   return (
     <div>
       {/* <Navbar /> */}
-      <NavbarNew />
+      <FadeInWhenVisible>
+        <NavbarNew />
+      </FadeInWhenVisible>
       <Hero />
       <AboutSection />
       <AboutJourneySection />
       {/* <EnagagementStats /> */}
-    {/* <LeadershipGrid /> */}
+      {/* <LeadershipGrid /> */}
       <Footer />
     </div>
   );
