@@ -44,7 +44,7 @@ export default function NavbarNew() {
     {
       label: "Company",
       dropdown: {
-        COMPANY: [{ label: "About Us",href:"https://about-us-flame.vercel.app/" }, { label: "Careers" }],
+        COMPANY: [{ label: "Jobs",href:"https://jobs-zeta-two.vercel.app/" }],
       },
     },
   ];
@@ -121,7 +121,7 @@ export default function NavbarNew() {
                                     <a
                                       key={i}
                                       href={item.href || "#"}
-                                      target="_self"
+                                      target="_blank"
                                       rel="noopener noreferrer"
                                       className="group rounded-sm transition-colors hover:bg-black/5 px-2 py-1 block"
                                     >
