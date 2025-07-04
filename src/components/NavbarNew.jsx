@@ -44,7 +44,7 @@ export default function NavbarNew() {
     {
       label: "Company",
       dropdown: {
-        COMPANY: [{ label: "About Us" }, { label: "Careers" }],
+        COMPANY: [{ label: "About Us",href:"https://about-us-flame.vercel.app/" }, { label: "Careers" }],
       },
     },
   ];
@@ -66,7 +66,7 @@ export default function NavbarNew() {
       onMouseLeave={() => setHoveredMenu(null)}
     >
       <nav className="flex items-center justify-between px-6 py-4">
-        <div className="text-xl font-bold">WINDSURF</div>
+        <div className="text-xl font-bold">WORKFORCE</div>
 
         {/* Desktop Nav */}
         <div className="hidden lg:flex gap-6">
@@ -121,7 +121,7 @@ export default function NavbarNew() {
                                     <a
                                       key={i}
                                       href={item.href || "#"}
-                                      target="_blank"
+                                      target="_self"
                                       rel="noopener noreferrer"
                                       className="group rounded-sm transition-colors hover:bg-black/5 px-2 py-1 block"
                                     >
@@ -208,7 +208,7 @@ export default function NavbarNew() {
                                     <div key={i} className="mb-2">
                                       <a
                                         href={item.href || "#"}
-                                        target="_blank"
+                                        target="_self"
                                         rel="noopener noreferrer"
                                         className={`${
                                           scrolled

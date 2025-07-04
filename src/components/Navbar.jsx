@@ -507,7 +507,7 @@ export default function Navbar() {
       onMouseLeave={() => setHoveredMenu(null)}
     >
       <nav className="flex items-center justify-between px-6 py-4">
-        <div className="text-xl font-bold">WINDSURF</div>
+        <div className="text-xl font-bold">WORKFORCE</div>
 
         {/* Desktop Nav */}
         <div className="hidden lg:flex gap-6">

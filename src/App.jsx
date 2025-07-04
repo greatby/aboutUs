@@ -1,3 +1,4 @@
+import AboutJourneySection from "./components/AboutJourneySection";
 import AboutSection from "./components/AboutSection";
 import EnagagementStats from "./components/EnagagementStats";
 import Footer from "./components/Footer";
@@ -13,8 +14,9 @@ function App() {
       <NavbarNew />
       <Hero />
       <AboutSection />
-      {/* <EnagagementStats />
-    <LeadershipGrid /> */}
+      <AboutJourneySection />
+      {/* <EnagagementStats /> */}
+    {/* <LeadershipGrid /> */}
       <Footer />
     </div>
   );
