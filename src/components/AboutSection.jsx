@@ -1,5 +1,9 @@
 import { motion } from "framer-motion";
-import { HiMiniCpuChip, HiMiniUserGroup, HiMiniRocketLaunch } from "react-icons/hi2";
+import {
+  HiMiniCpuChip,
+  HiMiniUserGroup,
+  HiMiniRocketLaunch,
+} from "react-icons/hi2";
 
 const layers = [
   {
@@ -27,7 +31,8 @@ const layers = [
 
 export default function VisionMissionSection() {
   return (
-    <section className="bg-[#f8fafc] py-20 px-4 text-gray-800">
+    <section className="relative z-10 bg-[#f8fafc] py-20 px-4 text-gray-800">
+     
       <div className="max-w-6xl mx-auto space-y-12 text-center">
         {/* Heading */}
         <div className="max-w-2xl mx-auto space-y-3">

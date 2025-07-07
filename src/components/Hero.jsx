@@ -1,7 +1,8 @@
+import AboutSection from "./AboutSection";
 
 export default function MissionHero() {
   return (
-    <section className="relative overflow-hidden bg-[#011e3c] py-20 text-white">
+    <section className="relative overflow-hidden bg-[#011e3c] text-white">
       {/* Background wave graphic */}
       <div
        style={{
@@ -29,6 +30,7 @@ export default function MissionHero() {
         Discover how we're transforming HR, from foundational services to building a future powered by AI agents.
       </p>
     </section>
+    <AboutSection/>
     </section>
   );
 }

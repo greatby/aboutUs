@@ -16,7 +16,7 @@ function App() {
         <NavbarNew />
       </FadeInWhenVisible>
       <Hero />
-      <AboutSection />
+      {/* <AboutSection /> */}
       <AboutJourneySection />
       {/* <EnagagementStats /> */}
       {/* <LeadershipGrid /> */}
